@@ -1,1 +1,94 @@
-
+/* General style*/
+/* Body Section */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0%;
+    background-color: #f5f5f5;
+}
+/* Body Section */
+/* Navigation Bar*/
+/* Header Section */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color:white;
+    padding: 15px 30px;
+}
+nav ul{
+    list-style: none;
+    padding:0%;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+/* Header Section */
+/* Home Section */
+#home{
+    text-align: center;
+    padding: 50px;
+    background-color: #ff9100;
+}
+#home img{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* Home Section */
+/* About Sectiom */
+section{
+    padding:50px;
+    text-align: center;
+}
+h2{
+    color:#333;
+}
+/* About Section */
+/* Project Section */
+.project {
+display:inline-block;
+width: 45%;
+margin: 10px;
+padding: 10px;
+background: #f5f5f5;
+border-radius: 5px;
+}
+.project img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* Project Section */
+/* Skills Section */
+#skills ul{
+    list-style: none;
+    padding: 0%;
+}
+#skills ul li{
+    display:inline-block;
+    background: #333;
+    color:white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+/* Skills Section */
+/* contact */
+#contact p{
+    font-size: 18px;
+}
+/* contact */
+/* Footer */
+footer{
+    background: #333;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+/* Footer */
